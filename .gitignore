@@ -1,6 +1,7 @@
 # OSX
 #
 .DS_Store
+ios/
 
 # Xcode
 #
@@ -24,6 +25,7 @@ project.xcworkspace
 
 # Android/IntelliJ
 #
+android/
 build/
 .idea
 .gradle
@@ -35,6 +37,7 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
 
 # BUCK
 buck-out/
