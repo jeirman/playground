@@ -15,7 +15,7 @@ EStyleSheet.build({
   $textColor: "#0275d8",
   $initScreenBackgroundColor: "#587AA0",
   $mainScreenBackgroundColor: "#F2F2F2",
-  $innerContainerWidth: "95%"
+  $innerContainerWidth: "93%"
 });
 
 export default class App extends React.Component {

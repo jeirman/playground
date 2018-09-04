@@ -5,6 +5,7 @@ import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import { createBottomTabNavigator } from "react-navigation";
 import DashboardStack from "./DashboardStack";
 import CompaniesStack from "./CompaniesStack";
+import DashboardModal from "./DashboardModal";
 import UserStack from "./UserStack";
 
 const MainTab = createBottomTabNavigator(

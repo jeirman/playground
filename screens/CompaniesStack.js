@@ -4,17 +4,25 @@ import { createStackNavigator } from "react-navigation";
 import CompaniesScreen from "./CompaniesScreen";
 import CompaniesDetailScreen from "./CompaniesDetailScreen";
 import CompaniesAddScreen from "./CompaniesAddScreen";
+import CompaniesEditScreen from "./CompaniesEditScreen";
+import CompaniesEnterNumbers from "./CompaniesEnterNumbers";
 
 const CompaniesStack = createStackNavigator(
   {
     Companies: {
       screen: CompaniesScreen
     },
-    Detail: {
+    CompaniesDetail: {
       screen: CompaniesDetailScreen
     },
-    Add: {
+    CompaniesAdd: {
       screen: CompaniesAddScreen
+    },
+    CompaniesEdit: {
+      screen: CompaniesEditScreen
+    },
+    CompaniesEnterNumbers: {
+      screen: CompaniesEnterNumbers
     }
   },
   {

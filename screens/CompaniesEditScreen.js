@@ -1,16 +1,16 @@
 import React, { Component } from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Button } from "react-native";
 
-class TestComponent extends Component {
+class CompaniesEditScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>TestComponent</Text>
+        <Text>CompaniesEditScreen</Text>
       </View>
     );
   }
 }
-export default TestComponent;
+export default CompaniesEditScreen;
 
 const styles = StyleSheet.create({
   container: {
